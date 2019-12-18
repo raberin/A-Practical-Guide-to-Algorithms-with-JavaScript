@@ -23,11 +23,11 @@ const uniqSort = function(arr) {
   return result.sort((a, b) => a - b);
 };
 
-//Bianca's - setting loop 1 index ahead, result arr containing 1st element
+//Bianca's
 const uniqSort = function(arr) {
   const breadcrumbs = {};
-  const result = [arr[0]];
-  for (let i = 1; i < arr.length; i++) {
+  const result = [];
+  for (let i = 0; i < arr.length; i++) {
     //start loop at 1 as element 0 can never be a duplicate
     if (!breadcrumbs[arr[i]]) {
       result.push(arr[i]);
