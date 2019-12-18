@@ -15,3 +15,5 @@ arr.unshift() && arr.shift(); // => [2,3] //O(n) since it has to move each eleme
 
 //**** Logarithmic Time Operation O(logn) ****//
 //As the data set increases, time complexity increass at a fraction OFTEN better than O(n) depending on dataset size
+
+//Merge Sort -- Breaking up the array in half into smaller and smaller arrays
