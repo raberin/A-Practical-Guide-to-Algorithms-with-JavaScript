@@ -17,7 +17,7 @@ const memoizedClosureTimes10 = () => {
   };
 };
 
-const memoClosureTimes10 = memoizedClosureTimes10();
+const memoClosureTimes10 = memoizedClosureTimes10(); //Saves the return statement of memoizedClosureTimes10 NOT the cache obj
 console.log("~~~~~~~~~~~~~~TASK 3~~~~~~~~~~~~~~");
 try {
   console.log("Task 3 calculated value:", memoClosureTimes10(9)); // calculated
